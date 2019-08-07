@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pha3l.DotBump", "Pha3l.DotBump\Pha3l.DotBump.csproj", "{4C8B230A-CA27-41F7-959B-13E0BE3CAE9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C8B230A-CA27-41F7-959B-13E0BE3CAE9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C8B230A-CA27-41F7-959B-13E0BE3CAE9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C8B230A-CA27-41F7-959B-13E0BE3CAE9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C8B230A-CA27-41F7-959B-13E0BE3CAE9A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

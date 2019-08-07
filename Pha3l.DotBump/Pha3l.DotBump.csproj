@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.1</TargetFramework>
+        <OutputType>Exe</OutputType>
+        <PackAsTool>true</PackAsTool>
+        <ToolCommandName>dotbump</ToolCommandName>
+        <PackageOutputPath>./nupkg</PackageOutputPath>
+
+        <PackageId>Pha3l.DotBump</PackageId>
+        <PackageDescription>A small tool to keep track of versions</PackageDescription>
+        <Title>DotBump</Title>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackagedLicenseFile>LICENSE</PackagedLicenseFile>
+        <RepositoryUrl>https://github.com/pha3l/Pha3l.DotBump</RepositoryUrl>
+        <Authors>Luke Merry</Authors>
+        <Copyright>Luke Merry 2019</Copyright>
+        <PackageTags>bump;semver;dotbump</PackageTags>
+        <IncludeSymbols>true</IncludeSymbols>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+        <IncludeSource>true</IncludeSource>
+        <IsPackable>true</IsPackable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="CommandLineParser" Version="2.6.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="../LICENSE">
+            <Pack>true</Pack>
+            <PackagePath>$(PackageLicenseFile)</PackagePath>
+        </None>
+    </ItemGroup>
+
+</Project>
