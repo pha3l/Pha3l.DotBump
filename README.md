@@ -23,7 +23,7 @@ Bump the major version
 ```bash
 $ cat .version # => 1.0.0
 $ dotbump bump major
-$ cat .version $ => 2.0.0
+$ cat .version # => 2.0.0
 ```
 `major` can be replaced with `minor` or `patch` to bump the corresponding semver component
 
